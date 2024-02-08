@@ -1,0 +1,229 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.cart-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .cart {
+    width: 80%;
+    background-color: #A0522D;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .cart-header {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #f2f2f2;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .cart-item {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #f2f2f2;
+  }
+  
+  .cart-header span:nth-child(2) {
+
+      padding-right: 64px;
+  }
+
+  .cart-header span:nth-child(3) {
+
+    text-indent: -93%;
+  }
+
+  .cart-header span:nth-child(4) {
+
+    text-indent: -195%;
+  }
+  
+  .cart-item span {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .cart-total {
+    text-align: right;
+    margin-top: 20px;
+    font-size: 1.25em;
+    font-weight: bold;
+  }
+  
+  .checkout-button {
+    width: 100%;
+    padding: 10px 0;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 20px;
+  }
+
+  .remove-item-btn {
+    background-color: #f44336; 
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .remove-item-btn:hover {
+    background-color: #d32f2f;
+  }
+
+
+.modal1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.5);
+}
+
+
+.modal-content1 {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 90%; 
+  max-width: 500px; 
+  box-sizing: border-box; 
+}
+
+
+.close-btn2 {
+  float: right;
+  background-color: transparent;
+  border: none;
+}
+
+.close:hover,
+.close:focus {
+  color: #333;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+}
+
+form label {
+  font-size: 14px;
+  color: #202124;
+  margin-bottom: 8px;
+  margin-top: 16px;
+}
+
+form input[type="text"],
+form select {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #dadce0;
+  border-radius: 4px;
+  outline: none;
+  width: 100%; 
+  box-sizing: border-box; 
+}
+
+form input[type="text"]:focus,
+form select:focus {
+  border-color: #4285f4;
+}
+
+form button[type="submit"] {
+  padding: 10px 15px;
+  background-color: #1a73e8;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+form button[type="submit"]:hover {
+  background-color: #2b7de9;
+}
+
+form select option {
+  padding: 10px; 
+  background: white; 
+  color: black; 
+}
+
+.loading-modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 1001; 
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.loading-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.overlay-text {
+  position: absolute;
+  bottom: -2px;
+  left: 52%;
+  transform: translateX(-50%); 
+  color: white; 
+  font-weight: bold;
+  font-size: 29px;
+}
+
+
+.animateGif-false .overlay-text {
+  display: block;
+}
+
+.close-overlay-btn {
+  position: absolute;
+  top: 10px; 
+  right: 10px; 
+  background: none;
+  border: none;
+  color: white; 
+  font-size: 30px; 
+  cursor: pointer;
+}
+
+.close-overlay-btn:hover {
+  color: #f00; 
+}

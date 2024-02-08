@@ -1,0 +1,24 @@
+@media (max-height: 850px) {
+    .carousel {
+      width:auto;
+      height:auto;
+    }
+}
+.carousel-item {
+    text-align: center;
+
+}
+
+.carousel-item h3{
+  font-size: 35px;
+}
+.carousel-item p3{
+    font-family: "Black Han Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+}
+
+.carousel-caption{
+  bottom: 2.25rem;
+}

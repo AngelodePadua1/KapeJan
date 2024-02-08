@@ -1,0 +1,92 @@
+.App {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section {
+  width: 100%;
+  max-width: 1600px;
+  min-height: 100vh;
+  padding: 3rem;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+header .header-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-title img {
+  width: 300px;
+  margin-top: 1rem;
+}
+
+.price {
+  width: 160px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 100px;
+  margin: auto;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+.main-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-container .coffeeBased {
+  width: 300px;
+  margin-top: 2rem;
+}
+
+.products-grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  justify-items: center;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.products-grid img {
+  width: 200px;
+}
+
+/* FOOTER */
+
+footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 3rem;
+}
+
+footer h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+footer p {
+  font-size: 1.5rem;
+  text-align: center;
+}

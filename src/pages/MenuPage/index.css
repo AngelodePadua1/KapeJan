@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;1,700&family=Noto+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,500&family=Oswald:wght@200;300;400;500;600;700&family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500&family=Space+Mono:wght@400;700&family=Titillium+Web:wght@300;400;600;700;900&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: "Permanent Marker", cursive;
+    -webkit-text-stroke: 1px black;
+    letter-spacing: 1px;
+}
+
+.App {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    width: 100%;
+    max-width: 1600px;
+    min-height: 100vh;
+    padding: 3rem;
+  }
+
+  header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  header .header-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .price {
+    width: 160px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 100px;
+    margin: auto;
+  }
+
+  .main-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main-container .coffeeBased {
+    width: 300px;
+    margin-top: 2rem;
+  }
+
+  .products-grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    justify-items: center;
+    align-items: center;
+    margin-top: 4rem;
+  }
+
+  .products-grid img {
+    width: 200px;
+  }
+
+  body {
+    background-image: linear-gradient(to bottom, #d45d79 0%, #ffd966 100%);
+}
+
